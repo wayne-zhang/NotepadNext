@@ -2071,7 +2071,8 @@ QToolBox::tab:hover {
   border-bottom: 2px solid #1A72BB;
 }
 
-QToolBox QScrollArea QWidget QWidget {
+/* merge PR #324 Fix hidden background of widgets in QToolBox */
+QToolBox QScrollArea {
   padding: 0px;
   border: 0px;
   background-color: #19232D;
